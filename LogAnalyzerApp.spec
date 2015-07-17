@@ -1,5 +1,5 @@
 # -*- mode: python -*-
-data_files = [('Items.json', 'C:\\Users\\Andrew\\Dropbox\\Spiral Knights Software Dev\\League of Gunners App\\Items.json', 'DATA')]
+data_files = [('Items.json', 'C:\\Users\\Andrew\\Repositories\\League of Gunners App\\src\\Items.json', 'DATA')]
 
 a = Analysis(['src/LogAnalyzerApp.py'],
              pathex=['C:\\Users\\Andrew\\Repositories\\League of Gunners App'],
@@ -11,9 +11,9 @@ exe = EXE(pyz,
           a.scripts,
           a.binaries,
           a.zipfiles,
-          a.datas,
+          a.datas + data_files,
           name='LogAnalyzerApp.exe',
           debug=False,
           strip=None,
           upx=True,
-          console=True )
+          console=False )

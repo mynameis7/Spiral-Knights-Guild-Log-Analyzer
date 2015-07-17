@@ -237,7 +237,7 @@ class Compiled_UI(QMainWindow, gui.Ui_MainWindow):
         def search_func(ev):
             date = get_datetime_from_stamp(ev.date)
             d_pass = start <= date and end >= date
-            n_pass = ev.name.lower().startswith(name) or name == ""
+            n_pass = ev.true_name.lower().startswith(name) or name == ""
             c_pass = category == "Category" or category == ev.category
             m_pass = False
             re_pass = False
@@ -272,7 +272,7 @@ class Compiled_UI(QMainWindow, gui.Ui_MainWindow):
                 self.logTable.insertRow(row)
                 dt = QTableWidgetItem(str(ev.date))
                 cat = QTableWidgetItem(str(ev.category))
-                nam = QTableWidgetItem(str(ev.name))
+                nam = QTableWidgetItem(str(ev.true_name))
                 mess = QTableWidgetItem(str(ev.true_message))
                 self.logTable.setItem(row, 0, dt)
                 self.logTable.setItem(row, 1, cat)
@@ -387,7 +387,25 @@ class Compiled_UI(QMainWindow, gui.Ui_MainWindow):
 
     
 if __name__ == '__main__':
-    #try:
+    def resource_path(relative_path):
+        """ Get absolute path to resource, works for dev and for PyInstaller """
+        try:
+            # PyInstaller creates a temp folder and stores path in _MEIPASS
+            base_path = sys._MEIPASS
+        except Exception:
+            base_path = os.path.abspath(".")
+
+        return os.path.join(base_path, relative_path)
+
+    recipesList = None
+    itemPath = resource_path("Items.json")
+    with open(itemPath) as f:
+        recipesList = json.load(f)["Recipes"]
+    if recipesList == None:
+        raise Exception("File not Found: %s"%itemPath)
+
+
+    try:
         if len(sys.argv) > 1:
             app = QApplication(sys.argv)
             window = Compiled_UI()
@@ -400,7 +418,7 @@ if __name__ == '__main__':
         #window.guild.load_from_file("League_of_Gunners.guild")
         #window.refresh_ui()
         sys.exit(app.exec_())
-    #except Exception as E:
-    #    raise E
-        #with open("LOG.txt", "w") as f:
-        #    f.write(str(E))
+    except Exception as E:
+        #raise E
+        with open("LOG.txt", "w") as f:
+            f.write(str(E))

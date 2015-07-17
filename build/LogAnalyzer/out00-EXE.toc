@@ -1,0 +1,9 @@
+('C:\\Users\\Andrew\\Repositories\\League of Gunners App\\dist\\LogAnalyzer.exe',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ False,
+ 1437105562L)

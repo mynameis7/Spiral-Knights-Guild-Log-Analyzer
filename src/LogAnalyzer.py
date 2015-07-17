@@ -5,26 +5,12 @@ from datetime import datetime
 import datetime as dt
 import csv
 import json
-import jsonpickle
+try:
+    import jsonpickle
+except Exception:
+    jsonpickle = None
+    
 TAGS = ("Membership", "Treasury", "Storage", "Energy", "Upkeep", "Guild Hall")
-
-def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and for PyInstaller """
-    try:
-        # PyInstaller creates a temp folder and stores path in _MEIPASS
-        base_path = sys._MEIPASS
-    except Exception:
-        base_path = os.path.abspath(".")
-
-    return os.path.join(base_path, relative_path)
-
-recipesList = None
-itemPath = resource_path("Items.json")
-with open(itemPath) as f:
-    recipesList = json.load(f)["Recipes"]
-if recipesList == None:
-    raise Exception("File not Found: %s"%itemPath)
-
 class Event(object):
     def __init__(self, (d, c, n, m)):
         #4 sections that the guild log has.
@@ -241,7 +227,7 @@ class Guild(object):
         newlist = []
         for i in self.data.values():
             if i.name.lower().startswith(pre.lower()):
-                newlist.append(self.data[i])
+                newlist.append(self.data[i.name])
         return newlist
 
     def get_members_in_guild(self):
@@ -267,11 +253,12 @@ class Guild(object):
             cPickle.dump(self.log, f, cPickle.HIGHEST_PROTOCOL)
             cPickle.dump(self.name, f, cPickle.HIGHEST_PROTOCOL)
             cPickle.dump(self.filepath, f, cPickle.HIGHEST_PROTOCOL)
-        with open("guild.json","w") as f:
-            string = jsonpickle.encode(self);
-            #string = string.replace("\"", r"\"")
-            #string = string.replace("\'",r"\'")
-            f.write(string)
+        if jsonpickle:
+            with open("guild.json","w") as f:
+                string = jsonpickle.encode(self, unpicklable=False)
+                #string = string.replace("\"", r"\"")
+                #string = string.replace("\'",r"\'")
+                f.write(string)
 
             
     def set_state(self, dict_):
@@ -731,9 +718,12 @@ def interface(guild):
                 for i in xrange(len(names)):
                     print "%s: %s"%(i+1, names[i])
                 print "%s: Back"%(len(names)+1)
-                choice = raw_input("Select Member by Number:")
-                mem = names[int(choice)-1]
-                member_menu(guild,mem)
+                name_choice = raw_input("Select Member by Number:")
+                try:
+                    mem = names[int(name_choice)-1]
+                    member_menu(guild,mem)
+                except IndexError:
+                    pass
         if choice == '4':
             guild.save_to_file(guild.filepath)
             print "SAVED!"
@@ -741,40 +731,114 @@ def interface(guild):
             path = raw_input("path to guild file:")
             guild.load_from_file(path)
             return guild
+        if choice == '6':
+            break
     return
-
-class DatetimeHandler(jsonpickle.handlers.BaseHandler):
-    def flatten(self, obj, data):
-        return obj.strftime('%Y-%m-%d %H:%M:%S.%f')
-jsonpickle.handlers.registry.register(datetime, DatetimeHandler)
+if jsonpickle:
+    class DatetimeHandler(jsonpickle.handlers.BaseHandler):
+        def flatten(self, obj, data):
+            return obj.strftime('%Y-%m-%d %H:%M:%S.%f')
+    jsonpickle.handlers.registry.register(datetime, DatetimeHandler)
 
 if __name__ == "__main__":
-    import os
-    guild = Guild(name="League of Gunners")
-##    logpath1 = os.getcwd()+"\\NEW APP\\logs"
-##    print logpath1
-##    for path, dirnames, filenames in os.walk(logpath1):
-##        for i in filenames:
-##            add_log_to_guild(guild, os.path.join(path, i))
-##    try:
-##        guild.member_name_change('Trolololcreeper', 'Medium-Moose')
-##        print "Trol"
-##        guild.member_name_change("Rhons","Akane-Akaza")
-##        print "Rhons"
-##        guild.member_name_change("Akane-Akaza","Rhons")
-##        guild.member_name_change("Tannertt","Apocrisiary")
-##        guild.member_name_change("Apocrisiary","Tannertt")
-##        guild.member_name_change("Hazm", "Gun-Shots")
-##        guild.member_name_change("Unominame", "Aeskau")
-##        guild.member_name_change("Takeshipl", "Takeshi-Pl")
-##        guild.save_to_file(guild.filepath)
-##        print export_wiki(guild)
-##    except Exception as e:
-##        print e
-    guild.load_from_file(guild.filepath)
+    
+    def resource_path(relative_path):
+        """ Get absolute path to resource, works for dev and for PyInstaller """
+        try:
+            # PyInstaller creates a temp folder and stores path in _MEIPASS
+            base_path = sys._MEIPASS
+        except Exception:
+            base_path = os.path.abspath(".")
 
-    val = 0
-    while val:
-        val = interface(guild)
-        if val:
-            guild = val
+        return os.path.join(base_path, relative_path)
+
+    recipesList = None
+    itemPath = resource_path("Items.json")
+    with open(itemPath) as f:
+        recipesList = json.load(f)["Recipes"]
+    if recipesList == None:
+        raise Exception("File not Found: %s"%itemPath)
+
+
+    import sys
+    guild = Guild()
+    print sys.argv
+    if len(sys.argv) > 4 or len(sys.argv) == 1:
+        print "Incorrect usage, type 'LogAnalyzer help' to see correct usage"
+        sys.exit(-1)
+    if sys.argv[1].lower() == "help":
+        print "Usage Notes:"
+        print "LogAnalyzer generate <log_folder>"
+        print "LogAnalyzer merge <log_folder>"
+        print "LogAnalyzer migrate <guild_name> <log_folder>"
+        sys.exit()
+    if sys.argv[1].lower() == "migrate":
+        if len(sys.argv) != 4:
+            print "Incorrect usage: LogAnalyzer migrate <guild_name> <log_folder>"
+            sys.exit(-1)
+        name = sys.argv[2]
+        logpath1 = os.path.join(os.getcwd(), sys.argv[3])
+        print "Migrating from: %s"%logpath1
+        for path, dirnames, filenames in os.walk(logpath1):
+            for i in filenames:
+                add_log_to_guild(guild, os.path.join(path, i))
+        print "Name Change Pair (Seperated by a space):<OLD_NAME> <NEW_NAME>"
+        try:
+            while True:
+                pair = raw_input("Pair: ")
+                pair = pair.strip()
+                pair.split(" ")
+                try:
+                    guild.member_name_change(pair[0], pair[1])
+                except Exception as e:
+                    print "Name Change Error"
+                    print e
+                more = raw_input("More name changes? (y/n): ")
+                more = more.strip()
+                if more.lower() not in "yn":
+                    more = raw_input("More name changes? (y/n): ")
+                    more = more.strip()
+                if more == "n":
+                    break
+##            guild.member_name_change('Trolololcreeper', 'Medium-Moose')
+##            guild.member_name_change("Rhons","Akane-Akaza")
+##            guild.member_name_change("Akane-Akaza","Rhons")
+##            guild.member_name_change("Tannertt","Apocrisiary")
+##            guild.member_name_change("Apocrisiary","Tannertt")
+##            guild.member_name_change("Hazm", "Gun-Shots")
+##            guild.member_name_change("Unominame", "Aeskau")
+##            guild.member_name_change("Takeshipl", "Takeshi-Pl")
+##            guild.member_name_change("Purple-Underdog", "Pink-Overkitty")
+##            guild.save_to_file(guild.filepath)
+        except Exception as e:
+            print e
+        guild.save_to_file(guild.filepath)
+    if sys.argv[1].lower() == "generate":
+        if len(sys.argv) != 3:
+            print "Incorrect usage: LogAnalyzer generate <log_folder>"
+            sys.exit(-1)
+        logpath1 = os.path.join(os.getcwd(), sys.argv[2])
+        print "Generating from: %s"%logpath1
+        for path, dirnames, filenames in os.walk(logpath1):
+            for i in filenames:
+                add_log_to_guild(guild, os.path.join(path, i))
+        name = raw_input("Guild Name:").strip()
+        guild.name = name
+        guild.save_to_file(guild.filepath)
+    if sys.argv[1].lower() == "merge":
+        if len(sys.argv) != 3:
+            print "Incorrect usage: LogAnalyzer merge <log_folder>"
+            sys.exit(-1)
+        logpath1 = os.path.join(os.getcwd(), sys.argv[2])
+        print "Merging from: %s"%logpath1
+        for path, dirnames, filenames in os.walk(logpath1):
+            for i in filenames:
+                add_log_to_guild(guild, os.path.join(path, i))
+        name = raw_input("Fileame:").strip()
+        guild.log.export_list(name)
+    if sys.argv[1].lower() == "interface":
+        val = True
+        while val:
+            val = interface(guild)
+            if val:
+                guild = val
