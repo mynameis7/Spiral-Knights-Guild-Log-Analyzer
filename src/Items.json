@@ -1,0 +1,3154 @@
+{
+  "Recipes": [
+    {
+      "Category": "Sword",
+      "Star": 0,
+      "name": "Proto Sword"
+    },
+    {
+      "Category": "Sword",
+      "Star": 0,
+      "name": "Beast Basher"
+    },
+    {
+      "Category": "Sword",
+      "Star": 0,
+      "name": "Hatchet"
+    },
+    {
+      "Category": "Sword",
+      "Star": 0,
+      "name": "Robo Wrecker"
+    },
+    {
+      "Category": "Sword",
+      "Star": 0,
+      "name": "Slime Slasher"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Big Beast Basher"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Bolted Blade"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Heavy Hatchet"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Hot Edge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Prototype Rocket Hammer"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Rugged Robo Wrecker"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Static Edge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Super Slime Slasher"
+    },
+    {
+      "Category": "Sword",
+      "Star": 1,
+      "name": "Thwack Hammer"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Brandish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Calibur"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Cutter"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Flourish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Searing Edge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Shocking Edge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Snarble Barb"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Spur"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Troika"
+    },
+    {
+      "Category": "Sword",
+      "Star": 2,
+      "name": "Wrench Wand"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Arc Razor"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Cautery Sword"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Fireburst Brandish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Flamberge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Grintovec"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Iceburst Brandish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Kamarin"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Nightblade"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Rigadoon"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Sealed Sword"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Shockburst Brandish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Stable Rocket Hammer"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Striker"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Swift Flourish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Tempered Calibur"
+    },
+    {
+      "Category": "Sword",
+      "Star": 3,
+      "name": "Twisted Snarble Barb"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Ascended Calibur"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Avenger"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Blazebrand"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Blizzbrand"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Boltbrand"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Cold Iron Carver"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Daring Rigadoon"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Dark Thorn Blade"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Faust"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Fierce Flamberge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Grand Flourish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Hunting Blade"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Jalovec"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Khorovod"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Silent Nightblade"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Vile Striker"
+    },
+    {
+      "Category": "Sword",
+      "Star": 4,
+      "name": "Winmillion"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Acheron"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Barbarous Thorn Blade"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Cold Iron Vanquisher"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Combuster"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Divine Avenger"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Dread Venom Striker"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Fang of Vog"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Fearless Rigadoon"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Final Flourish"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Furious Flamberge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Glacius"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Gran Faust"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Leviathan Blade"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Scissor Blades"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Sudaruska"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Triglav"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Voltedge"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Warmaster Rocket Hammer"
+    },
+    {
+      "Category": "Sword",
+      "Star": 5,
+      "name": "Wild Hunting Blade"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 0,
+      "name": "Proto Gun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 0,
+      "name": "Punch Gun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 0,
+      "name": "Stun Gun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 1,
+      "name": "Frost Gun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 1,
+      "name": "Pummel Gun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 1,
+      "name": "Super Stun Gun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 1,
+      "name": "Zapper"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Autogun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Catalyzer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Cryotech Alchemer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Firotech Alchemer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Prismatech Alchemer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Shadowtech Alchemer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 2,
+      "name": "Voltech Alchemer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Antigua"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Cryotech Alchemer Mk II"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Firotech Alchemer Mk II"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Heavy Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Industrial Catalyzer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Kilowatt Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Magnus"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Needle Shot"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Pepperbox"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Prismatech Alchemer Mk II"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Shadowtech Alchemer Mk II"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Super Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Toxic Catalyzer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Toxic Needle"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Voltech Alchemer Mk II"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Dark Chaingun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Shadow Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Elemental Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Pierce Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Flaming Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Freezing Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 3,
+      "name": "Tundrus"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Blackhawk"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Blight Needle"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Cryo Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Fiery Pepperbox"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Firo Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Gigawatt Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Master Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Mega Magnus"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Prisma Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Radiant Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Shadow Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Silversix"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Strike Needle"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Virulent Catalyzer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Volatile Catalyzer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Volt Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Black Chaingun"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Umbral Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Fusion Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Breach Blaster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Blazing Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Frozen Pulsar"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Mega Tundrus"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 4,
+      "name": "Raptor"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Argent Peacemaker"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Biohazard"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Blitz Needle"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Callahan"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Hail Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Iron Slug"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Magma Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Neutralizer"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Nova Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Plague Needle"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Polaris"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Sentenza"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Storm Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Supernova"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Umbra Driver"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Valiance"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Volcanic Pepperbox"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Grim Repeater"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Phantamos"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Arcana"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Riftlocker"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Wildfire"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Permafroster"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Winter Grave"
+    },
+    {
+      "Category": "Handgun",
+      "Star": 5,
+      "name": "Gilded Griffin"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 0,
+      "name": "Proto Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 1,
+      "name": "Cold Snap"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 1,
+      "name": "Firecracker"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 1,
+      "name": "Static Flash"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Blast Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Crystal Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Dark Matter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Dark Reprisal"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Fiery Vaporizer"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Freezing Vaporizer"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Haze Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Shard Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Spine Cone"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Splinter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Static Capacitor"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 2,
+      "name": "Toxic Vaporizer"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Dark Reprisal Mk II"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Deconstructor"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Electron Charge"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Fiery Vaporizer Mk II"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Freezing Vaporizer Mk II"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Graviton Charge"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Haze Bomb Mk II"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Lightning Capacitor"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Rock Salt Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Sun Shards"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Super Blast Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Super Crystal Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Super Dark Matter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Super Shard Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Super Splinter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Toxic Vaporizer Mk II"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 3,
+      "name": "Twisted Spine Cone"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Electron Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Fiery Atomizer"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Freezing Atomizer"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Graviton Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Haze Burst"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Heavy Crystal Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Heavy Dark Matter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Heavy Deconstructor"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Heavy Shard Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Heavy Splinter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Ionized Salt Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Irontech Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Master Blast Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Plasma Capacitor"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Radiant Sun Shards"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Spike Shower"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 4,
+      "name": "Toxic Atomizer"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Ash of Agni"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Big Angry Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Dark Briar Barrage"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Dark Retribution"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Deadly Crystal Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Deadly Dark Matter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Deadly Shard Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Deadly Splinter Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Electron Vortex"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Graviton Vortex"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Irontech Destroyer"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Nitronome"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Scintillating Sun Shards"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Shivermist Buster"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Shocking Salt Bomb"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Stagger Storm"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Venom Veiler"
+    },
+    {
+      "Category": "Bomb",
+      "Star": 5,
+      "name": "Voltaic Tempest"
+    },
+    {
+      "Category": "Helm",
+      "Star": 0,
+      "name": "Spiral Pith Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 0,
+      "name": "Spiral Sallet"
+    },
+    {
+      "Category": "Helm",
+      "Star": 0,
+      "name": "Spiral Tailed Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 0,
+      "name": "Cyclops Cap"
+    },
+    {
+      "Category": "Helm",
+      "Star": 0,
+      "name": "Groundbreaker Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 0,
+      "name": "Mining Hat"
+    },
+    {
+      "Category": "Helm",
+      "Star": 1,
+      "name": "Circuit Breaker Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 1,
+      "name": "Emberbreak Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 1,
+      "name": "Fractured Mask of Seerus"
+    },
+    {
+      "Category": "Helm",
+      "Star": 1,
+      "name": "Frostbreaker Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 1,
+      "name": "Spiral Scale Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Cobalt Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Firebreak Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Icebreaker Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Jelly Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Magic Hood"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Skelly Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Spiral Demo Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Spiral Plate Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Volt Breaker Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Wolver Cap"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Angelic Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Blazebreak Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Blizzbreaker Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Boosted Plate Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Brute Jelly Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Chroma Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Drake Scale Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Dusker Cap"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Elemental Hood"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Flawed Mask of Seerus"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Fused Demo Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Gunslinger Hat"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Quicksilver Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Scary Skelly Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Solid Cobalt Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Surge Breaker Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Ash Tail Cap"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Charged Quicksilver Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Heavy Demo Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Heavy Plate Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Mighty Cobalt Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Miracle Hood"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Rock Jelly Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Salamander Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Seraphic Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Sinister Skelly Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Sunset Stetson"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Virulisk Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Wyvern Scale Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Almirian Crusader Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Ancient Plate Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Arcane Salamander Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Azure Guardian Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Bombastic Demo Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Chaos Cowl"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Crown of the Fallen"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Deadly Virulisk Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Deadshot Chapeau"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Divine Veil"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Dragon Scale Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Dread Skelly Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Grey Feather Cowl"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Heavenly Iron Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Ice Queen Crown"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Ironmight Plate Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Justifier Hat"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Mad Bomber Mask"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Mercurial Demo Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Mercurial Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Nameless Hat"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Perfect Mask of Seerus"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Royal Jelly Crown"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Shadowsun Stetson"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Skolver Cap"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Snarbolax Cap"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Valkyrie Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Vog Cub Cap"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Volcanic Demo Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Volcanic Plate Helm"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Volcanic Salamander Mask"
+    },
+    {
+      "Category": "Armor",
+      "Star": 0,
+      "name": "Spiral Brigandine"
+    },
+    {
+      "Category": "Armor",
+      "Star": 0,
+      "name": "Spiral Cuirass"
+    },
+    {
+      "Category": "Armor",
+      "Star": 0,
+      "name": "Spiral Culet"
+    },
+    {
+      "Category": "Armor",
+      "Star": 0,
+      "name": "Fencing Jacket"
+    },
+    {
+      "Category": "Armor",
+      "Star": 0,
+      "name": "Groundbreaker Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 0,
+      "name": "Vitasuit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 1,
+      "name": "Circuit Breaker Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 1,
+      "name": "Emberbreak Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 1,
+      "name": "Frostbreaker Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 1,
+      "name": "Spiral Scale Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Cobalt Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Firebreak Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Icebreaker Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Jelly Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Magic Cloak"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Skelly Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Spiral Demo Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Spiral Plate Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Vitasuit Plus"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Volt Breaker Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Wolver Coat"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Angelic Raiment"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Blazebreak Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Blizzbreaker Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Boosted Plate Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Brute Jelly Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Chroma Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Drake Scale Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Dusker Coat"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Elemental Cloak"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Fused Demo Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Gunslinger Sash"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Quicksilver Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Scary Skelly Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Solid Cobalt Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Surge Breaker Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Ash Tail Coat"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Charged Quicksilver Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Heavy Demo Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Heavy Plate Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Mighty Cobalt Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Miracle Cloak"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Rock Jelly Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Salamander Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Seraphic Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Silvermail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Sinister Skelly Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Sunset Duster"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Virulisk Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Vitasuit Deluxe"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Wyvern Scale Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Almirian Crusader Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Ancient Plate Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Arcane Salamander Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Armor of the Fallen"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Azure Guardian Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Bombastic Demo Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Chaos Cloak"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Deadly Virulisk Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Deadshot Mantle"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Divine Mantle"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Dragon Scale Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Dread Skelly Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Grey Feather Mantle"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Heavenly Iron Armor"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Ice Queen Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Ironmight Plate Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Justifier Jacket"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Mad Bomber Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Mercurial Demo Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Mercurial Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Nameless Poncho"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Radiant Silvermail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Royal Jelly Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Shadowsun Slicker"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Skolver Coat"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Snarbolax Coat"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Valkyrie Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Vog Cub Coat"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Volcanic Demo Suit"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Volcanic Plate Mail"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Volcanic Salamander Suit"
+    },
+    {
+      "Category": "Shield",
+      "Star": 0,
+      "name": "Proto Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 0,
+      "name": "Iron Buckler"
+    },
+    {
+      "Category": "Shield",
+      "Star": 1,
+      "name": "Circuit Breaker Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 1,
+      "name": "Emberbreak Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 1,
+      "name": "Force Buckler"
+    },
+    {
+      "Category": "Shield",
+      "Star": 1,
+      "name": "Frostbreaker Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 1,
+      "name": "Green Ward"
+    },
+    {
+      "Category": "Shield",
+      "Star": 1,
+      "name": "Scale Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Bristling Buckler"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Defender"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Firebreak Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Icebreaker Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Jelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Owlite Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Plate Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Skelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 2,
+      "name": "Volt Breaker Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Blazebreak Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Blizzbreaker Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Boosted Plate Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Brute Jelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Drake Scale Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Great Defender"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Horned Owlite Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Scarlet Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Scary Skelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Surge Breaker Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Swiftstrike Buckler"
+    },
+    {
+      "Category": "Shield",
+      "Star": 3,
+      "name": "Twisted Targe"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Blackened Crest"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Dark Thorn Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Darkfang Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Heavy Plate Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Mighty Defender"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Rock Jelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Sinister Skelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Stone Tortoise"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Wise Owlite Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 4,
+      "name": "Wyvern Scale Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Aegis"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Ancient Plate Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Barbarous Thorn Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Crest of Almire"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Dragon Scale Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Dread Skelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Grey Owlite Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Heater Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Ironmight Plate Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Omega Shell"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Royal Jelly Shield"
+    },
+    {
+      "Category": "Shield",
+      "Star": 5,
+      "name": "Volcanic Plate Shield"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 1,
+      "name": "Heart Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Crystal Pin"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Driftwood Bracelet"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Dual Heart Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Hearthstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Jelly Band"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Katnip Pouch"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Silver Amulet"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Skelly Charm"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "Wetstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 2,
+      "name": "White Laurel"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Blessed Silver Amulet"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Bright White Laurel"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Brute Jelly Band"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Choice Katnip Pouch"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Dewy Wetstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Glowing Crystal Pin"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Redwood Bracelet"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Scale Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Scary Skelly Charm"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Tri-Heart Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 3,
+      "name": "Warm Hearthstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Bomb Focus Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Boom Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Glimmering Crystal Pin"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Handgun Focus Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Hi-Grade Katnip Pouch"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Ironwood Bracelet"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Quick Draw Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Quick Strike Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Rock Jelly Band"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Sacred Silver Amulet"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Sinister Skelly Charm"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Slippery Wetstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Slash Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Snowy White Laurel"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Sword Focus Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Tetra-Heart Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Toasty Hearthstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 4,
+      "name": "Trueshot Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Dread Skelly Charm"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Bomb Focus Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Boom Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Handgun Focus Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Quick Draw Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Quick Strike Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Slash Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Sword Focus Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Elite Trueshot Module"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Penta-Heart Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Pure White Laurel"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Purrfect Katnip Pouch"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Radiant Crystal Pin"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Royal Jelly Band"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Saintly Silver Amulet"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Sizzling Hearthstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Soaking Wetstone Pendant"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "True Love Locket"
+    },
+    {
+      "Category": "Trinket",
+      "Star": 5,
+      "name": "Wyrmwood Bracelet"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 2,
+      "name": "Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 2,
+      "name": "Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Falcon Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Falcon Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Falcon Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Falcon Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Falcon Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Falcon Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Firefly Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Firefly Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Firefly Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Firefly Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Firefly Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Firefly Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Grizzly Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Grizzly Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Grizzly Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Grizzly Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Grizzly Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Grizzly Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Snakebite Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Snakebite Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Snakebite Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Snakebite Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 3,
+      "name": "Woven Snakebite Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 3,
+      "name": "Woven Snakebite Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Falcon Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Falcon Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Falcon Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Falcon Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Falcon Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Falcon Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Firefly Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Firefly Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Firefly Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Firefly Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Firefly Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Firefly Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Grizzly Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Grizzly Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Grizzly Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Grizzly Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Grizzly Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Grizzly Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Snakebite Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Snakebite Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Snakebite Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Snakebite Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 4,
+      "name": "Plated Snakebite Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 4,
+      "name": "Plated Snakebite Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Guerrilla Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Guerrilla Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Hazard Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Hazard Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Keeper Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Keeper Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Wraith Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Wraith Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Ghost Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Ghost Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Falcon Hex Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Falcon Hex Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Guerrilla Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Guerrilla Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Hazard Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Hazard Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Keeper Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Keeper Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Wraith Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Wraith Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Ghost Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Ghost Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Firefly Hex Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Firefly Hex Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Guerrilla Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Guerrilla Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Hazard Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Hazard Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Keeper Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Keeper Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Wraith Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Wraith Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Ghost Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Ghost Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Grizzly Hex Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Grizzly Hex Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Pathfinder Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Pathfinder Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Guerrilla Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Guerrilla Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Hazard Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Hazard Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Sentinel Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Sentinel Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Keeper Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Keeper Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Wraith Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Wraith Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Shade Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Shade Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Ghost Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Ghost Helm"
+    },
+    {
+      "Category": "Armor",
+      "Star": 5,
+      "name": "Sacred Snakebite Hex Armor"
+    },
+    {
+      "Category": "Helm",
+      "Star": 5,
+      "name": "Sacred Snakebite Hex Helm"
+    }
+  ]
+}
