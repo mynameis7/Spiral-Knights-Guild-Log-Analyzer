@@ -1,8 +1,8 @@
 # -*- mode: python -*-
-data_files = [('Items.json', 'C:\\Users\\Andrew\\Repositories\\League of Gunners App\\src\\Items.json', 'DATA')]
+data_files = [('Items.json', '.\\src\\Items.json', 'DATA')]
 
 a = Analysis(['src/LogAnalyzerApp.py'],
-             pathex=['C:\\Users\\Andrew\\Repositories\\League of Gunners App'],
+             pathex=['.\\'],
              hiddenimports=[],
              hookspath=None,
              runtime_hooks=None)
