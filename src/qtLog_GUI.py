@@ -2,8 +2,7 @@
 
 # Form implementation generated from reading ui file 'Log_Analyzer.ui'
 #
-# Created: Fri Jul 17 02:11:26 2015
-#      by: PyQt4 UI code generator 4.10.4
+# Created by: PyQt4 UI code generator 4.11.4
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -367,16 +366,16 @@ class Ui_MainWindow(object):
         self.verticalLayout_9.addWidget(self.label_4)
         self.memberNameFilter = QtGui.QLineEdit(self.logTab)
         self.memberNameFilter.setObjectName(_fromUtf8("memberNameFilter"))
-        self.verticalLayout_9.addWidget(self.memberNameFilter)
+        self.verticalLayout_9.addWidget(self.memberNameFilter, QtCore.Qt.AlignVCenter)
         self.horizontalLayout_4.addLayout(self.verticalLayout_9)
         self.verticalLayout_10 = QtGui.QVBoxLayout()
         self.verticalLayout_10.setObjectName(_fromUtf8("verticalLayout_10"))
         self.label_5 = QtGui.QLabel(self.logTab)
         self.label_5.setObjectName(_fromUtf8("label_5"))
-        self.verticalLayout_10.addWidget(self.label_5)
+        self.verticalLayout_10.addWidget(self.label_5, QtCore.Qt.AlignBottom)
         self.messageFilter = QtGui.QLineEdit(self.logTab)
         self.messageFilter.setObjectName(_fromUtf8("messageFilter"))
-        self.verticalLayout_10.addWidget(self.messageFilter)
+        self.verticalLayout_10.addWidget(self.messageFilter, QtCore.Qt.AlignVCenter)
         self.horizontalLayout_4.addLayout(self.verticalLayout_10)
         self.verticalLayout_11.addLayout(self.horizontalLayout_4)
         self.logTable = QtGui.QTableWidget(self.logTab)
