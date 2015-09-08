@@ -1,0 +1,5 @@
+*.pyc
+*.bat
+*.ps1
+*.spec
+/build
