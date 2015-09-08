@@ -3,3 +3,5 @@
 *.ps1
 *.spec
 /build
+app_installation.log.txt
+cli_installation.log.txt
