@@ -14,6 +14,6 @@ LogAnalyzer merge \<log_folder\> <br>
 \<log_folder\> is the path to the folder containing the logs. <br>
 \<guild_name\> is the name of the guild with a file that currently exists.<br>
 
-generate: generates a guild file containing all the logs. "*.guild" file to be used with the gui program
-migrate: generates a guild file containing all the logs, prompts for name change revisions after the generation.  Primarily for moving to a new version of the data.
-merge: merges all the logs in the folder into 1 file. Prompts for a save name after it has completed the merging.
+generate: generates a guild file containing all the logs. "*.guild" file to be used with the gui program<br>
+migrate: generates a guild file containing all the logs, prompts for name change revisions after the generation.  Primarily for moving to a new version of the data.<br>
+merge: merges all the logs in the folder into 1 file. Prompts for a save name after it has completed the merging.<br>
