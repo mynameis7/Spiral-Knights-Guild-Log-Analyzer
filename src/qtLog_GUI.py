@@ -445,6 +445,8 @@ class Ui_MainWindow(object):
         self.actionExport_Wiki_Block.setObjectName(_fromUtf8("actionExport_Wiki_Block"))
         self.actionAdjust_Inventory = QtGui.QAction(MainWindow)
         self.actionAdjust_Inventory.setObjectName(_fromUtf8("actionAdjust_Inventory"))
+        self.actionSerialize_Log = QtGui.QAction(MainWindow)
+        self.actionSerialize_Log.setObjectName(_fromUtf8("actionSerialize_Log"))
         self.menuFile.addAction(self.actionNew)
         self.menuFile.addSeparator()
         self.menuFile.addAction(self.actionOpen)
@@ -569,4 +571,5 @@ class Ui_MainWindow(object):
         self.actionExport_Log.setText(_translate("MainWindow", "Export Log", None))
         self.actionExport_Wiki_Block.setText(_translate("MainWindow", "Export Wiki Block", None))
         self.actionAdjust_Inventory.setText(_translate("MainWindow", "Adjust Inventory", None))
+        self.actionSerialize_Log.setText(_translate("MainWindow", "Serialize Log", None))
 

@@ -953,6 +953,11 @@
     <string>Adjust Inventory</string>
    </property>
   </action>
+  <action name="actionSerialize_Log">
+   <property name="text">
+    <string>Serialize Log</string>
+   </property>
+  </action>
  </widget>
  <tabstops>
   <tabstop>guildTitle</tabstop>

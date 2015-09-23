@@ -30,7 +30,7 @@ class Event(object):
     message = property(get_message)
     def __eq__(self, other):
         if isinstance(other, self.__class__):
-            return str(self.date) == str(other.date)
+            return str(self.date) == str(other.date) and self.true_name == other.true_name and self.true_message == other.true_message and self.category == other.category
         else:
             return False
 
@@ -39,6 +39,18 @@ class Event(object):
 
     def get_csv_string(self):
         return '"%s","%s","%s","%s"' % (self.date, self.category, self.true_name, self.true_message)
+
+    def row_form(self):
+        true_name = self.true_name
+        true_message = self.true_message
+        new_name = self.new_name
+        new_message = self.new_message
+##        try:
+##            true_message = true_message.replace("\"", "\\\"")
+##            new_message = new_message.replace("\"", "\\\"")
+##        except:
+##            pass
+        return '"%s"\t"%s"\t"%s"\t"%s"\t"%s"\t"%s"' % (self.date, self.category, true_name, true_message, new_name, new_message)
     
 def get_datetime_from_stamp(timestamp):
     formatstr = '%m/%d/%y %I:%M:%S %p'
@@ -603,6 +615,11 @@ class EventList(object):
         
         self.data.sort(key=lambda ev: get_datetime_from_stamp(ev.date), reverse=True)
 
+    def generate_data_table(self, filepath):
+        with open(filepath, 'w') as f:
+            f.write('"%s"\t"%s"\t"%s"\t"%s"\t"%s"\t"%s"\n'% ("Timestamp", "Category", "True_Name", "True_Message", "New_Name", "New_Message"))
+            for event in self.data:
+                f.write(event.row_form() + "\n")
 
 def extract_data(data):
     #You send it the filepath to the Spiral Knights Log csv
@@ -704,9 +721,10 @@ def interface(guild):
     menu += "3: Guild Data\n"
     menu += "4: Save\n"
     menu += "5: Load\n"
-    menu += "6: Quit\n"
+    menu += "6: Export Full Log\n"
+    menu += "7: Quit\n"
     choice = ''
-    while choice != '6':
+    while choice != '7':
         choice = raw_input(menu)
         if choice == '1':
             for name in guild.members:
@@ -732,7 +750,7 @@ def interface(guild):
             guild.load_from_file(path)
             return guild
         if choice == '6':
-            break
+            guild.log.generate_data_table(guild.name + "_logs.csv");
     return
 if jsonpickle:
     class DatetimeHandler(jsonpickle.handlers.BaseHandler):
@@ -741,7 +759,6 @@ if jsonpickle:
     jsonpickle.handlers.registry.register(datetime, DatetimeHandler)
 
 if __name__ == "__main__":
-    
     def resource_path(relative_path):
         """ Get absolute path to resource, works for dev and for PyInstaller """
         try:
@@ -761,6 +778,8 @@ if __name__ == "__main__":
 
 
     import sys
+    sys.argv.append("interface")
+
     guild = Guild()
     print sys.argv
     if len(sys.argv) > 4 or len(sys.argv) == 1:
