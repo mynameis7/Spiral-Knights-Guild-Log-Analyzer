@@ -32,6 +32,7 @@ def update_member_name(db, old_name, new_name):
     member = find_member(db, old_name)["id"]
     cur = db.execute('UPDATE Members SET Name=? WHERE ID=?', (new_name,member,))
 
+
 con = sqlite3.connect("guild.sqlite3")
 con.row_factory = sqlite3.Row
 for dep in get_member_crown_deposits(con, "Mynameis-Seven"):
