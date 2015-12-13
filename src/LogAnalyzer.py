@@ -308,8 +308,38 @@ class Guild(object):
             return dateObj.strftime("%m/%d/%Y")
         return ""
     def save_to_json(self):        
-        return None
-    
+            with open(self.name + ".json-guild","w") as f:
+                string = jsonpickle.encode(self)
+                f.write(string)
+
+
+    def load_from_json(self, filename):
+        with open(filename) as f:
+            guild_json = f.read()
+
+        result = jsonpickle.decode(guild_json)
+        self.data = result.data
+        self.name = result.name
+        self.log = result.log
+        self.filepath = result.filepath
+        self.inventory = result.inventory
+        self.inventory_buffer = result.inventory_buffer
+        
+        for member in self.data:
+            if type(self.data[member].join_date) == unicode:
+                self.data[member].join_date = datetime.strptime(self.data[member].join_date, '%Y-%m-%d %H:%M:%S.%f')
+            for i in xrange(len(self.data[member].deposits)):
+                date = self.data[member].deposits[i]
+                if type(date[0]) == unicode:
+                    new_date = datetime.strptime(date[0],'%Y-%m-%d %H:%M:%S.%f')
+                    self.data[member].deposits[i] = (new_date, date[1])
+            for i in xrange(len(self.data[member].energy)):
+                date = self.data[member].energy[i]
+                if type(date[0]) == unicode:
+                    new_date = datetime.strptime(date[0],'%Y-%m-%d %H:%M:%S.%f')
+                    self.data[member].energy[i] = (new_date, date[1])
+            
+        
     def save_to_xml(self):
         return None
 
@@ -752,6 +782,7 @@ def interface(guild):
         if choice == '6':
             guild.log.generate_data_table(guild.name + "_logs.csv");
     return
+
 if jsonpickle:
     class DatetimeHandler(jsonpickle.handlers.BaseHandler):
         def flatten(self, obj, data):

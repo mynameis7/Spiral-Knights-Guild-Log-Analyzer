@@ -18,7 +18,7 @@ class Compiled_UI(QMainWindow, gui.Ui_MainWindow):
             count = 0
             string = ""
             for i in os.listdir(os.getcwd()):
-                if i.endswith(".guild"):
+                if i.endswith(".json-guild"):
                     string = i
                     count += 1
             if count == 1:
@@ -87,7 +87,7 @@ class Compiled_UI(QMainWindow, gui.Ui_MainWindow):
 
         load = autoload()
         if load:
-            self.guild.load_from_file(load)
+            self.guild.load_from_json(load)
             self.refresh_ui()
         
         self.show()
@@ -162,19 +162,19 @@ class Compiled_UI(QMainWindow, gui.Ui_MainWindow):
         filepath = QFileDialog.getOpenFileName()
         if filepath:
             self.guild.reset()
-            self.guild.load_from_file(filepath)
+            self.guild.load_from_json(filepath)
             self.guild.filepath = filepath;
             self.refresh_ui()
 
     def save_guild(self):
         self.guild.filepath = str(self.guild.filepath)
-        self.guild.save_to_file(self.guild.filepath)
+        self.guild.save_to_json(self.guild.filepath)
 
     def save_as_guild(self):
         filepath = QFileDialog.getSaveFileName()
         if filepath:
             filepath = str(filepath)
-            self.guild.save_to_file(filepath)
+            self.guild.save_to_json(filepath)
             self.guild.filepath = filepath
 
     def update_list(self):
