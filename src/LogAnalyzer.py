@@ -150,12 +150,16 @@ class Guild(object):
         self.filepath = self.name.replace(' ', '_')+".guild"
         self.inventory = {}
         self.inventory_buffer = {}
-
+        self.renames = []
+        
     def reset(self):
         self.data = dict()
         self.name = ""
         self.log = EventList()
         self.filepath = ""
+        self.renames = []
+        self.inventory = {}
+        self.inventory_buffer = {}
 
     def search(self, name):
         for mate in self.data:
@@ -177,6 +181,7 @@ class Guild(object):
         for ev in self.log.data:
             ev.new_name = ev.name.replace(old, new)
             ev.new_message = ev.message.replace(old, new)
+        self.renames.append((old, new))
         self.refresh()
 
     def get_weekly_total(self):
@@ -271,22 +276,6 @@ class Guild(object):
                 #string = string.replace("\"", r"\"")
                 #string = string.replace("\'",r"\'")
                 f.write(string)
-
-            
-    def set_state(self, dict_):
-        self.reset()
-        data = dict_['data']
-        for i in data:
-            g = Guildmate()
-            g.__setstate__(i)
-            self.add(g)
-        log = dict_['log']
-        for i in log['data']:
-            vals = (i['date'],i['category'],i['name'],i['message'])
-            self.log.add(Event(vals))
-        self.log.headers = log['headers']
-        self.filepath = dict_['filepath']
-        self.name = dict_['name']
         
     def load_from_file(self, filepath):
         with open(filepath, 'rb') as f:
@@ -295,11 +284,6 @@ class Guild(object):
             self.name = cPickle.load(f)
             self.filepath = cPickle.load(f)
 
-    def get(self):
-        dict_ = dict(self.__dict__)
-        dict_['data'] = [self.data[i].get() for i in self.data]
-        dict_['log'] = self.log.get()
-        return dict_
     def get_last_log_date(self):
         self.log.order()
         if self.log.data:
@@ -307,7 +291,7 @@ class Guild(object):
             dateObj = get_datetime_from_stamp(dateStr)
             return dateObj.strftime("%m/%d/%Y")
         return ""
-    def save_to_json(self):        
+    def save_to_json(self, filepath):        
             with open(self.name + ".json-guild","w") as f:
                 string = jsonpickle.encode(self)
                 f.write(string)
@@ -324,6 +308,7 @@ class Guild(object):
         self.filepath = result.filepath
         self.inventory = result.inventory
         self.inventory_buffer = result.inventory_buffer
+        self.renames = result.renames
         
         for member in self.data:
             if type(self.data[member].join_date) == unicode:
@@ -777,7 +762,10 @@ def interface(guild):
             print "SAVED!"
         if choice == '5':
             path = raw_input("path to guild file:")
-            guild.load_from_file(path)
+            if path.endswith(".guild"):
+                guild.load_from_file(path)
+            elif path.endswith(".json-guild"):
+                guild.load_from_json(path)
             return guild
         if choice == '6':
             guild.log.generate_data_table(guild.name + "_logs.csv");

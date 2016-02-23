@@ -1,6 +1,7 @@
 import sqlite3
 import sys
 import LogAnalyzer as LA
+from LogAnalyzer import *
 from os.path import exists, join, abspath
 from os import pathsep
 from os import remove
@@ -25,14 +26,14 @@ def search_file(filename, search_path):
       return None
 
 if __name__ == "__main__":
-    sys.argv.append("League_of_Gunners.guild")
+    sys.argv.append("League of Gunners.json-guild")
     print sys.argv
     con = sqlite3.Connection(":memory:")
     cur = con.cursor()
     executeSQLFile("./sql/createTables.sql", cur)
 
     g = LA.Guild()
-    g.load_from_file(sys.argv[1])
+    g.load_from_json(sys.argv[1])
     for member in g.data.values():
         mem_pack = (member.name, member.join_date, member.in_guild, member.rank_val)
         cur.execute("INSERT INTO Members (Name,JoinDate,InGuild,RankVal) VALUES(?,?,?,?)", mem_pack)
@@ -46,6 +47,9 @@ if __name__ == "__main__":
     for ev in g.log.data:
         ev_pack = (ev.date, ev.category, ev.true_name, ev.true_message, ev.new_name, ev.new_message)
         cur.execute("INSERT INTO Logs VALUES(?,?,?,?,?,?)", ev_pack)
+    for rename in g.renames:
+        print rename
+        cur.execute("INSERT INTO Renames VALUES(?, ?, ?)", rename)
     con.commit()
     with open("dump.sql", "w") as f:
         for line in con.iterdump():

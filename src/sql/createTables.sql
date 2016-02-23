@@ -28,3 +28,9 @@ CREATE TABLE 'Energy_Deposits' (
 	amount integer,
 	FOREIGN KEY(ID) REFERENCES Members(ID)
 );
+
+CREATE TABLE 'Renames' (
+	Old varchar(18),
+	New varchar(18),
+	Precedent integer
+);
