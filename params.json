@@ -1,0 +1,6 @@
+{
+  "name": "Spiral-knights-guild-log-analyzer",
+  "tagline": "An analyzer program for the guild logs that are exported from an online MMORPG called Spiral Knights",
+  "body": "### The Program\r\nThis project was created for the game Spiral Knights.  In this game, guild staff had the option to download logs of activity in the guild.  These logs had several fields, but overall were a pain to read.  This program is for assisting others with managing their guild, and also to view and manage the guild logs more effectively.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
